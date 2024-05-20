@@ -2,14 +2,136 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css"
-        <title>A Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+       
+        <link rel="stylesheet" media='screen and (min-width: 100px) and (max-width: 500px)' href="mobile-styles.css"/>
+        <link rel="stylesheet" media='screen and (min-width: 501px) and (max-width: 2000px)' href="styles.css"/>
+        
+
+        
+    
     </head>
     <body>
 
-        <p>
-            <a href="./about.html">About Page</a>
-        </p>
+        
+
+        <div class="header">
+
+           
+
+            <img src="./flutter-logo.svg" class="flutter-logo">
+
+           <nav class="nav-bar">
+
+            <a href="#hobbies-section" class="nav-link">Hobbies</a>
+
+            <a href="#favorite-snacks-section" class="nav-link">Favorite Snacks</a>
+
+            <a href="#tech-skills-section" class="nav-link">Tech Skills</a>
+
+           
+            
+            
+
+           </nav>
+        </div>
+
+        <div class="welcome-section">
+
+
+            <p class="welcome-text">
+                Welcome to my page
+            </p>
+
+            <p class="more-info">
+                You can find more info about me below
+            </p>
+
+
+        </div>
+           
+
+            <div class="hobbies-section" id="hobbies-section">
+
+                <p class="personal-info-text">Hobbies</p>
+
+            <div class="items-bounding-box">
+
+                <div class="item-div">
+                    <img src="./tennis.jpg" class="images" />
+                    <p class="item-title">Table Tennis</p>
+
+                </div>
+
+                <div class="item-div">
+                    <img src="./football.jpg" class="images" />
+                    <p class="item-title">Football</p>
+                </div>
+
+                <div class="item-div">
+
+                    <img src="./gaming.jpg" class="images" />
+                    <p class="item-title">Gaming</p>
+                </div>
+
+            </div>
+
+        </div>
+
+          
+        <div class="favorite-snacks-section" id="favorite-snacks-section">
+
+            <p class="personal-info-text">Favorite Snacks</p>
+
+        <div class="items-bounding-box">
+
+            <div class="item-div">
+                <img src="./bread.jpg" class="images" />
+                <p class="item-title">Bread</p>
+
+            </div>
+
+            <div class="item-div">
+                <img src="./pringles.jpg" class="images" />
+                <p class="item-title">Pringles</p>
+            </div>
+
+            <div class="item-div">
+
+                <img src="./cookies.jpg" class="images" />
+                <p class="item-title">Cookies</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="tech-skills-section" id="tech-skills-section">
+
+        <p class="personal-info-text">Tech skills</p>
+
+    <div class="items-bounding-box">
+
+        <div class="item-div">
+            <img src="./programming.jpg" class="images" />
+            <p class="item-title">Programming</p>
+
+        </div>
+
+        <div class="item-div">
+            <img src="./graphics.jpg" class="images" />
+            <p class="item-title">Graphics</p>
+        </div>
+
+        <div class="item-div">
+
+            <img src="./animation.jpg" class="images" />
+            <p class="item-title">Animation</p>
+        </div>
+
+    </div>
+
+</div>
 
 
 

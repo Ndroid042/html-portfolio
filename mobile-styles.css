@@ -57,7 +57,8 @@ a{
     color: white;
     font-family: 'Segoe UI';
     font-weight: 500;
-    display: block;
+    display: none;
+
 }
 
 .welcome-text{
@@ -93,7 +94,7 @@ a{
 .images:hover{
 
     opacity: 80%;
-    transform: scale(1.1)
+    transform: scale(1)
     
      
  }
@@ -138,7 +139,26 @@ a{
     text-align: center;
     padding:5px 20px;
     }
+
+    .btn{
+
+        font-size: 1.1em;
     
+        color: white;
+        font-family: 'Segoe UI';
+        font-weight: 500;
+        
+    }
+    .dropdown-links{
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    .dropdown-menu{
+        
+        background-color: rgb(86,131,225);
+        
+    }
 
 
 

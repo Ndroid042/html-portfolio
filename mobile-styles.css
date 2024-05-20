@@ -147,16 +147,28 @@ a{
         color: white;
         font-family: 'Segoe UI';
         font-weight: 500;
-        
+         
     }
+
+    .btn:hover{
+
+        font-size: 1.1em;
+    
+        color: white;
+        font-family: 'Segoe UI';
+        font-weight: 500;
+         
+    }
+
     .dropdown-links{
         font-size: 1.1em;
-        color: black;
+        color: white;
     }
     
     .dropdown-menu{
         
         background-color: rgb(86,131,225);
+        color: white;;
         
     }
 

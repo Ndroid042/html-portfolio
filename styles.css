@@ -17,6 +17,7 @@ body{
 
 a{
     text-decoration: none;
+    
 }
 
 
@@ -57,6 +58,7 @@ a{
     color: white;
     font-family: 'Segoe UI';
     font-weight: 500;
+    display: inline;
 }
 
 .welcome-text{
@@ -106,6 +108,7 @@ a{
     padding: 10px 10px;
     
     
+    
     /*flex-direction:column;
     */
     
@@ -137,7 +140,13 @@ a{
 .item-div{
     text-align: center;
     padding:5px 10px;
+    
     }
+
+    .dropdown{
+        display: none;
+    }
+
 
 
     
